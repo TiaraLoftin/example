@@ -14,5 +14,5 @@ function sendmail() {
             message: userMessage
         };
 
-        emailjs.send('service_i3vwd2s', 'template_fc5cmnu', contactParams).then(function (res) {alert("Success!"+ res.status);})
+        emailjs.send('service_2hy6l8j', 'template_fc5cmnu', contactParams).then(function (res) {alert("Success!"+ res.status);})
 }
